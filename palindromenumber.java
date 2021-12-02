@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author Hi
+ */
+public class palindromenumber {
+    public static void main(String args[]){  
+  int r,sum=0,temp;    
+  int n=454; 
+  
+  temp=n;    
+  while(n>0){    
+   r=n%10; 
+   sum=(sum*10)+r;    
+   n=n/10;    
+  }    
+  if(temp==sum)    
+   System.out.println("palindrome number ");    
+  else    
+   System.out.println("not palindrome");    
+}  
+}  
+
+    
+
